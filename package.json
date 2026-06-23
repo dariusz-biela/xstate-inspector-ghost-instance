@@ -1,0 +1,26 @@
+{
+  "name": "xstate-inspector-ghost-instance",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Minimal reproduction of XState inspector 'ghost' actors under React Strict Mode / hot reload",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@statelyai/inspect": "^0.7.2",
+    "@xstate/react": "^5.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "xstate": "^5.19.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}
